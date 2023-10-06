@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  #map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .map-overlap {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+  }
+
+  .gray-marker {
+    background-image: url("./images/gray-marker.png");
+    width: 25px;
+    height: 36px;
+    background-size: 100%;
+  }
+
+  .red-marker {
+    background-image: url("./images/red-marker.png");
+    width: 25px;
+    height: 36px;
+    background-size: 100%;
+  }
+
+  .green-marker {
+    background-image: url("./images/green-marker.png");
+    width: 50px;
+    height: 72px;
+    background-size: 100%;
+    
+  }
